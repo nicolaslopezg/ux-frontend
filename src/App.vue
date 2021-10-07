@@ -1,23 +1,26 @@
 <template>
   <div id="app" >
-    <Navbar></Navbar>
-    <Home/>
+    <NavbarUsuario></NavbarUsuario>
+    <Usuario/>
     <Footer/>
     
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
-import Navbar from './components/Navbar.vue'
+/*import Home from './components/Home.vue'*/
+//import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
-
+import Usuario from './components/Usuario.vue'
+import NavbarUsuario from './components/NavbarUsuario.vue'
 export default {
   name: 'App',
   components: {
-    Home,
-    Navbar,
-    Footer
+   // Home,
+   // Navbar,
+    Footer,
+    Usuario,
+    NavbarUsuario
   }
 }
 </script>
@@ -39,14 +42,6 @@ body {
  background-size: cover;
  
 }
-#footer {
-    position: fixed;
-    height: 50px;
-    background-color: red;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-}
+
 
 </style>
