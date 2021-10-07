@@ -1,6 +1,6 @@
 <template>
     <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted ">
+<footer class="text-center text-lg-start bg-light text-muted abajo">
   <!-- Section: Social media -->
   <!--section
     class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -30,6 +30,15 @@
     ;
 }
 
+.abajo {
+    position: fixed;
+    height: 50px;
+    margin-top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
 .colorNaranjaLetra{
     color: #FFA737 !important;
 }

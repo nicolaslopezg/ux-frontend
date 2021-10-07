@@ -33,12 +33,20 @@ export default {
 }
 
 body {
- background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(248, 230, 180, 0.5)), url("https://i.ibb.co/vJNJVd7/1593870889167.jpg");
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(248, 230, 180, 0.5)), url("https://i.ibb.co/PgnsMfw/best-banks-in-Canada.webp");
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
  
 }
-
+#footer {
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
 
 </style>
